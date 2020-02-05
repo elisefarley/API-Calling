@@ -13,6 +13,7 @@
 		9267244B23E9D2F300AF2DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9267244923E9D2F300AF2DA7 /* Main.storyboard */; };
 		9267244D23E9D2FA00AF2DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9267244C23E9D2FA00AF2DA7 /* Assets.xcassets */; };
 		9267245023E9D2FA00AF2DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9267244E23E9D2FA00AF2DA7 /* LaunchScreen.storyboard */; };
+		9267245823EB253900AF2DA7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267245723EB253900AF2DA7 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9267244C23E9D2FA00AF2DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9267244F23E9D2FA00AF2DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9267245123E9D2FA00AF2DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9267245723EB253900AF2DA7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "SwiftyJSON-master/Source/SwiftyJSON/SwiftyJSON.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9267244C23E9D2FA00AF2DA7 /* Assets.xcassets */,
 				9267244E23E9D2FA00AF2DA7 /* LaunchScreen.storyboard */,
 				9267245123E9D2FA00AF2DA7 /* Info.plist */,
+				9267245723EB253900AF2DA7 /* SwiftyJSON.swift */,
 			);
 			path = "API Calling";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				9267244823E9D2F300AF2DA7 /* SourcesViewController.swift in Sources */,
 				9267244423E9D2F300AF2DA7 /* AppDelegate.swift in Sources */,
 				9267244623E9D2F300AF2DA7 /* SceneDelegate.swift in Sources */,
+				9267245823EB253900AF2DA7 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

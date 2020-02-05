@@ -9,12 +9,14 @@
 import UIKit
 
 class SourcesViewController: UITableViewController {
-
+    
+    var channels = [[String: String]]()
+    let apiKey = "4TWNwDPsxsbfNtLrAJRV2Nzv6NOA2uE0Nho0cXGd"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.title = "Weather Channels"
+        let query = "https://api.nasa.gov/planetary/apod?api_key=(apiKey)"
     }
-
-
 }
 
